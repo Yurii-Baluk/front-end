@@ -1,0 +1,42 @@
+
+    input[type="text"]{
+        width: 90%;
+        height: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid #ccc;
+        margin-top: 15px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    input[type="submit"]{
+        display: block;
+        width: 100px;
+        height: 30px;
+        border: 1px solid #ccc;
+        outline: none;
+        background: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 7px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+.btn-clear,
+.btn-add-phone{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+}
