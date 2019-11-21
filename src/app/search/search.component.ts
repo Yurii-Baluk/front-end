@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SearchComponent implements OnInit {
 
   public name: string;
+  public item:any = {
+    view : 17
+  }
 
   constructor() { }
 
