@@ -8,15 +8,32 @@
 </div>
 
 
-<mat-toolbar>  
-        <mat-toolbar-row>
-          <span>First Row</span>
-        </mat-toolbar-row>
-      
-        <mat-toolbar-row>
-          <span>Second Row</span>
-        </mat-toolbar-row>
-      </mat-toolbar>
+<button>Material Button</button>
 <div class="result-wrap">
     {{name}}
 </div>
+
+<nb-flip-card>
+    <nb-card-front>
+      <nb-card accent="danger">
+        <nb-card-body>
+          A nebula is an interstellar cloud of dust, hydrogen,
+          helium and other ionized gases.
+          Originally, nebula was a name for
+          any diffuse astronomical object,
+          including galaxies beyond the Milky Way.
+        </nb-card-body>
+      </nb-card>
+    </nb-card-front>
+    <nb-card-back>
+      <nb-card>
+        <nb-card-body>
+          A nebula is an interstellar cloud of dust, hydrogen,
+          helium and other ionized gases.
+          Originally, nebula was a name for
+          any diffuse astronomical object,
+          including galaxies beyond the Milky Way.
+        </nb-card-body>
+      </nb-card>
+    </nb-card-back>
+  </nb-flip-card>

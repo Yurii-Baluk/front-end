@@ -9,6 +9,9 @@ import { SearchComponent } from './search/search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+
 
 
 @NgModule({
@@ -26,6 +29,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatSelectModule,
     MatIconModule,
     MatToolbarModule,
+    NbThemeModule.forRoot({ name: 'default' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
