@@ -9,15 +9,21 @@ import { SearchComponent } from './search/search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
+import { NbThemeModule, 
+  NbLayoutModule, 
+  NbCardModule,
+  NbMenuModule
+} from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { MenuComponent } from './menu/menu.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +36,7 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
     MatIconModule,
     MatToolbarModule,
     NbThemeModule.forRoot({ name: 'default' }),
+    NbMenuModule.forRoot(),
     NbLayoutModule,
     NbEvaIconsModule,
     NbCardModule,
